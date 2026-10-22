@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@theme{
+    --color-night: #0F0E0C;
+  --color-panel: #161411;
+    --color-line: #2A2621;
+  --color-cream: #F5F0E6;
+    --color-muted: #A39E93;
+  --color-gold: #E9B949;
+  --font-serif:"Fraunces",Georgia,serif;
+  --font-sans:"Inter",system-ui,sans-serif
+}
+body{
+  background-color: var(--color-night);
+  color:var(--color-cream);
+}
